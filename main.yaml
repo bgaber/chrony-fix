@@ -1,0 +1,30 @@
+---
+- name: Replace chrony.conf
+  hosts: "{{ inventory_group }}"
+  gather_facts: true
+  become: true
+  tasks:
+  # - name: Value of inventory_hostname
+  #   debug: var={{ inventory_hostname }}
+
+  # - name: Value of ansible_hostname
+  #   debug: var={{ ansible_hostname }}
+
+  # - name: Value of ansible_user
+  #   debug: var={{ ansible_user }}
+
+  - name: Copy Chrony Config File
+    copy:
+      src: files/chrony.conf
+      dest: /etc/chrony.conf
+      remote_src: no
+      owner: root
+      group: root
+      mode: 0644
+      backup: yes
+
+  - name: Start Chrony
+    service:
+      name: chronyd
+      state: restarted
+      enabled: yes

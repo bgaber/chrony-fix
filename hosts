@@ -1,0 +1,51 @@
+[all]
+SPLAWSFRK22IG2      ansible_host=161.108.207.244    ansible_user=ec2-user
+SPLAWSFRK22IDM2     ansible_host=161.108.207.230    ansible_user=ec2-user
+SPLAWSFRK22AM2      ansible_host=161.108.207.245    ansible_user=ec2-user
+SPLAWSFRK22DS2      ansible_host=161.108.207.205    ansible_user=ec2-user
+SPLAWSFRK22IG1      ansible_host=161.108.207.184    ansible_user=ec2-user
+SPLAWSFRK22IDM1     ansible_host=161.108.207.154    ansible_user=ec2-user
+SPLAWSFRK22AM1      ansible_host=161.108.207.176    ansible_user=ec2-user
+SPLAWSFRK22DS1      ansible_host=161.108.207.185    ansible_user=ec2-user
+SPLAWSFRK22DPLY1    ansible_host=161.108.207.143    ansible_user=ec2-user
+STLAWSFRK22IG2      ansible_host=161.108.205.246    ansible_user=ec2-user
+STLAWSFRK22IDM2     ansible_host=161.108.205.239    ansible_user=ec2-user
+STLAWSFRK22AM2      ansible_host=161.108.205.196    ansible_user=ec2-user
+STLAWSFRK22DS2      ansible_host=161.108.205.226    ansible_user=ec2-user
+STLAWSFRK22IG1      ansible_host=161.108.205.163    ansible_user=ec2-user
+STLAWSFRK22IDM1     ansible_host=161.108.205.183    ansible_user=ec2-user
+STLAWSFRK22AM1      ansible_host=161.108.205.160    ansible_user=ec2-user
+STLAWSFRK22DS1      ansible_host=161.108.205.158    ansible_user=ec2-user
+STLAWSFRK7DPLY1     ansible_host=161.108.205.156    ansible_user=ec2-user
+SDLAWSFRK7IG1       ansible_host=161.108.205.134    ansible_user=ec2-user
+SDLAWSFRK7DS1       ansible_host=161.108.205.176    ansible_user=ec2-user
+SDLAWSFRK7IDM1      ansible_host=161.108.205.232    ansible_user=ec2-user
+SDLAWSFRK7AM1       ansible_host=161.108.205.251    ansible_user=ec2-user
+
+[forgerock-prod]
+SPLAWSFRK22IG2      ansible_host=161.108.207.244    ansible_user=ec2-user
+SPLAWSFRK22IDM2     ansible_host=161.108.207.230    ansible_user=ec2-user
+SPLAWSFRK22AM2      ansible_host=161.108.207.245    ansible_user=ec2-user
+SPLAWSFRK22DS2      ansible_host=161.108.207.205    ansible_user=ec2-user
+SPLAWSFRK22IG1      ansible_host=161.108.207.184    ansible_user=ec2-user
+SPLAWSFRK22IDM1     ansible_host=161.108.207.154    ansible_user=ec2-user
+SPLAWSFRK22AM1      ansible_host=161.108.207.176    ansible_user=ec2-user
+SPLAWSFRK22DS1      ansible_host=161.108.207.185    ansible_user=ec2-user
+SPLAWSFRK22DPLY1    ansible_host=161.108.207.143    ansible_user=ec2-user
+
+[forgerock-test]
+STLAWSFRK22IG2      ansible_host=161.108.205.246    ansible_user=ec2-user
+STLAWSFRK22IDM2     ansible_host=161.108.205.239    ansible_user=ec2-user
+STLAWSFRK22AM2      ansible_host=161.108.205.196    ansible_user=ec2-user
+STLAWSFRK22DS2      ansible_host=161.108.205.226    ansible_user=ec2-user
+STLAWSFRK22IG1      ansible_host=161.108.205.163    ansible_user=ec2-user
+STLAWSFRK22IDM1     ansible_host=161.108.205.183    ansible_user=ec2-user
+STLAWSFRK22AM1      ansible_host=161.108.205.160    ansible_user=ec2-user
+STLAWSFRK22DS1      ansible_host=161.108.205.158    ansible_user=ec2-user
+STLAWSFRK7DPLY1     ansible_host=161.108.205.156    ansible_user=ec2-user
+
+[forgerock-dev]
+SDLAWSFRK7IG1       ansible_host=161.108.205.134    ansible_user=ec2-user
+SDLAWSFRK7DS1       ansible_host=161.108.205.176    ansible_user=ec2-user
+SDLAWSFRK7IDM1      ansible_host=161.108.205.232    ansible_user=ec2-user
+SDLAWSFRK7AM1       ansible_host=161.108.205.251    ansible_user=ec2-user
